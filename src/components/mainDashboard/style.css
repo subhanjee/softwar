@@ -1,0 +1,116 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #ff4218;
+  transform: scaleY(0.0001);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: "";
+}
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: #9fc834;
+}
+.onhover {
+  font-size: medium;
+  color: #0a0a0a;
+}
+.onhover:hover {
+  color: #9fc834;
+}
+.trigger:hover {
+  color: #9fc834;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #cefad0;
+}
+.ant-menu-item-selected {
+  color: black;
+  font-weight: 600;
+}
+.logo {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.site-layout .site-layout-background {
+  background: #eeeded;
+  height: 86vh;
+  border-radius: 1rem;
+}
+.backgroundwhole {
+  background: rgb(194, 193, 193) !important;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.dashtextdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashtext {
+  font-size: 1.25rem;
+  color: white;
+}
+.dashtext1 {
+  font-family: 2rem;
+  color: white;
+  margin-left: 0.5rem;
+}
+.lgoimg2 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: white;
+  border-radius: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.4rem; */
+  width: 13rem !important;
+  height: 13rem !important;
+  margin-top: 0.8rem;
+}
+.lgoimg {
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 20rem;
+}
+.lgodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardsdiv22222 {
+  margin-top: 2rem;
+}
+.cardsdiv3344 {
+  row-gap: 1rem;
+}

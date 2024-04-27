@@ -1,0 +1,9 @@
+.innputt {
+  padding-left: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 1rem;
+  width: 20vw;
+  background-color: white;
+  border-color: black;
+}
